@@ -1,0 +1,5 @@
+export class SaveWhiteboardEvent extends Event {
+    constructor() {
+        super('redo', { bubbles: true, composed: true});
+    }
+}
